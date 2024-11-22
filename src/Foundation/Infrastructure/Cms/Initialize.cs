@@ -26,6 +26,7 @@ namespace Foundation.Infrastructure.Cms
         }
 
         void IInitializableModule.Uninitialize(InitializationEngine context)
+
         {
         }
     }
