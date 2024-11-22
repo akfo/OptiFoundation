@@ -23,6 +23,7 @@ namespace Foundation
             CreateHostBuilder(args, isDevelopment).Build().Run();
         }
 
+
         public static IHostBuilder CreateHostBuilder(string[] args, bool isDevelopment)
         {
             if (isDevelopment)
